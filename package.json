@@ -2,6 +2,10 @@
   "name": "image-gen-cli",
   "version": "1.0.0",
   "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+      "imgGen": "./bin/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,5 +17,8 @@
     "got": "^11.1.2",
     "memejs": "^1.2.3",
     "terminal-image": "^0.2.0"
+  },
+  "devDependencies": {
+    "cli": ">=1.0.0"
   }
 }
