@@ -1,0 +1,17 @@
+{
+  "name": "image-gen-cli",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "figlet": "^1.4.0",
+    "got": "^11.1.2",
+    "memejs": "^1.2.3",
+    "terminal-image": "^0.2.0"
+  }
+}
